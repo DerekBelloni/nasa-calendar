@@ -7,16 +7,16 @@
 </template>
 
 <script>
-import { computed } from 'vue'
-import { AppState } from '../AppState'
+import { computed } from "vue";
+import { AppState } from "../AppState";
 export default {
-  name: 'Account',
+  name: "Account",
   setup() {
     return {
-      account: computed(() => AppState.account)
-    }
-  }
-}
+      account: computed(() => AppState.account),
+    };
+  },
+};
 </script>
 
 <style scoped>
